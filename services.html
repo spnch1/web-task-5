@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,25 @@
     <link rel="icon" type="image/x-icon" href="src/favicon.ico">
     <title>Task 1 - Services (Mobile)</title>
 </head>
+
 <body>
     <main class="container">
+        <!-- block 1 -->
         <header class="block">
+            <!-- block X -->
             <div class="xy block">
                 <h1>The Quick Brown Fox</h1>
             </div>
         </header>
+        <!-- block 2 (added for task 5) -->
+        <aside class="block">
+            <h3>Trending!!!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+            <p class="img-container">
+                <img src="src/aside/white_cat.jpg" alt="A distinguished gentleman having his hair brushed">
+            </p>
+        </aside>
+        <!-- block 3 -->
         <nav class="block">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,59 +36,48 @@
                 <li><a href="services.html">Services</a></li>
             </ul>
         </nav>
+        <!-- block 4 -->
         <section class="block">
             <h2>Our Services</h2>
         </section>
+        <!-- block 5 -->
         <article class="block">
             <div>
-                <p>We offer a comprehensive range of services to help you achieve your goals. Our team of experts is dedicated to providing high-quality solutions tailored to your specific needs.</p>
-
-                <table class="block">
-                    <caption>Service Packages</caption>
-                    <thead>
-                        <tr>
-                            <th>Package</th>
-                            <th>Features</th>
-                            <th>Price</th>
-                            <th>Timeline</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Basic</td>
-                            <td>Simple website, basic design, responsive layout</td>
-                            <td>$500</td>
-                            <td>2 weeks</td>
-                        </tr>
-                        <tr>
-                            <td>Standard</td>
-                            <td>Advanced website, custom design, CMS integration</td>
-                            <td>$1,200</td>
-                            <td>4 weeks</td>
-                        </tr>
-                        <tr>
-                            <td>Premium</td>
-                            <td>Full-featured application, advanced functionality, e-commerce</td>
-                            <td>$3,000</td>
-                            <td>8 weeks</td>
-                        </tr>
-                        <tr>
-                            <td>Enterprise</td>
-                            <td>Complex solutions, multiple integrations, custom requirements</td>
-                            <td>Custom</td>
-                            <td>12+ weeks</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <p>Ready to get started? <a href="contact.html">Contact us</a> today for a free consultation and quote tailored to your specific needs.</p>
+                <div id="task3-form-container">
+                    <h3>Task 3: Find Min Numbers</h3>
+                    <form id="min-numbers-form">
+                        <input type="number" name="num" value="10" required>
+                        <input type="number" name="num" value="5" required>
+                        <input type="number" name="num" value="8" required>
+                        <input type="number" name="num" value="3" required>
+                        <input type="number" name="num" value="12" required>
+                        <input type="number" name="num" value="7" required>
+                        <input type="number" name="num" value="1" required>
+                        <input type="number" name="num" value="9" required>
+                        <input type="number" name="num" value="4" required>
+                        <input type="number" name="num" value="6" required>
+                        <button type="submit">Calculate Min Count</button>
+                    </form>
+                </div>
+                <div id="task4-form-container">
+                    <h3>Task 4: Italicize Block 3</h3>
+                    <label>
+                        <input type="checkbox" id="italic-checkbox"> Enable Italics on Keypress
+                    </label>
+                </div>
+                <div id="task2-result"></div>
+                <div id="task5-container"></div>
             </div>
         </article>
+        <!-- block 6 -->
         <footer class="block">
+            <!-- block Y -->
             <div class="xy block">
                 <h1>Jumps Over The Lazy Dog</h1>
             </div>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
